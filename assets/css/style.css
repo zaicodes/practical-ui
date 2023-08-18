@@ -100,6 +100,8 @@ html {
 
 .section-one {
   background-color: #fef5cf9e;
+}
+.section-one-container {
   display: block;
 }
 
@@ -138,31 +140,31 @@ html {
 
 /*Section Two*/
 .section-two {
-  background-color: #ffffff9e;
+  background-color: #ffffff;
+}
+.section-two-container {
   display: block;
-  justify-content: center;
-  align-items: center;
-  padding-top: 4rem;
-  padding: 0 40rem;
+  padding: auto;
+  margin: auto;
 }
 
 .section-two-part h2 {
   font-size: 4rem;
   font-weight: 500;
-  padding: 2rem 3rem;
+  padding: 2rem 6rem;
   color: rgb(0, 0, 0);
 }
 
 .section-two-part p {
   font-size: 2rem;
   font-weight: 400;
-  padding: 1rem 3rem;
+  padding: 1rem 6rem;
   color: rgb(43, 43, 43);
 }
 
 .selection-two-icon {
   padding-top: 10rem;
-  padding-left: 3rem;
+  padding-left: 6rem;
 }
 .selection-two-icon i {
   font-size: 5rem;
@@ -173,4 +175,37 @@ html {
   border: #5272ff2d solid 5px;
   border-radius: 50%;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.194);
+}
+
+.author {
+  display: flex;
+}
+
+.author-image {
+  padding-left: 6rem;
+}
+
+.author-image img {
+  border-radius: 50%;
+  height: 70px;
+  width: auto;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.194);
+  float: left;
+}
+
+.author-name {
+  display: block;
+  padding-left: 3rem;
+}
+
+.author-name h2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1c1c1c;
+}
+
+.author-name p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #505673;
 }
