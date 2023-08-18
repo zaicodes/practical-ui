@@ -209,3 +209,32 @@ html {
   font-weight: 400;
   color: #505673;
 }
+
+/* Section Three */
+.section-three {
+  margin-top: 200px;
+  background-color: #f2f2f289;
+  padding: 100px 0;
+}
+
+.section-three-container {
+  display: block;
+  padding: auto;
+  margin: auto;
+}
+
+.section-three-part h2 {
+  padding-left: 7rem;
+  font-size: 16px;
+  color: #ff991f;
+  margin-bottom: 20px;
+  letter-spacing: 0.2rem;
+}
+
+.book-pages {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 6rem;
+  height: 460px;
+  width: 460px;
+}
