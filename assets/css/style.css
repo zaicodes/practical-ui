@@ -109,15 +109,15 @@ html {
 
 .selection-one-icon {
   padding-bottom: 3rem;
-  padding-left: 2rem;
+  padding-left: 3rem;
 }
 .selection-one-icon i {
-  font-size: 3rem;
+  font-size: 2rem;
   padding: 2rem 2rem;
   color: #5271ff;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.892);
-  border: #f6f8ff80 solid 5px;
+  border: #5272ff2d solid 5px;
   border-radius: 50px;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.194);
 }
@@ -137,3 +137,40 @@ html {
 }
 
 /*Section Two*/
+.section-two {
+  background-color: #ffffff9e;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  padding: 0 40rem;
+}
+
+.section-two-part h2 {
+  font-size: 4rem;
+  font-weight: 500;
+  padding: 2rem 3rem;
+  color: rgb(0, 0, 0);
+}
+
+.section-two-part p {
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 1rem 3rem;
+  color: rgb(43, 43, 43);
+}
+
+.selection-two-icon {
+  padding-top: 10rem;
+  padding-left: 3rem;
+}
+.selection-two-icon i {
+  font-size: 5rem;
+  padding: 3rem 3rem;
+  color: #5271ff;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.892);
+  border: #5272ff2d solid 5px;
+  border-radius: 50%;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.194);
+}
