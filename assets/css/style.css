@@ -1,0 +1,139 @@
+/* Universal CSS Properties */
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+/* Header section */
+
+.header-section {
+  display: block;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+.logo-section {
+  background-color: rgb(255, 255, 255);
+  height: 150px;
+}
+
+.logo {
+  display: flex;
+  padding-bottom: 8rem;
+  width: 28rem;
+  height: 28rem;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+  height: 100%;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5rem;
+}
+
+.hero-image img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+
+.hero-text .heading-one {
+  color: #ff991f;
+  font-size: 1.8rem;
+  font-weight: 750;
+  letter-spacing: 2px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.hero-text .heading-two {
+  font-size: 5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.hero-text .strikethrough {
+  color: grey;
+}
+.hero-text .heading-paragraph {
+  font-size: 1.8rem;
+  padding-top: 1rem;
+}
+
+.heading-button-one {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  background-color: #5271ff;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.heading-button-two {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  color: #5271ff;
+  background-color: white;
+  padding: 15px 20px;
+  border: solid 1px #5271ff;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+/* Section One */
+
+.section-one {
+  background-color: #fef5cf9e;
+  display: block;
+}
+
+.section-one-part {
+  padding: 1rem 3rem;
+}
+
+.selection-one-icon {
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+}
+.selection-one-icon i {
+  font-size: 3rem;
+  padding: 2rem 2rem;
+  color: #5271ff;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.892);
+  border: #f6f8ff80 solid 5px;
+  border-radius: 50px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.194);
+}
+
+.section-one-part h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 0 3rem;
+  color: rgb(0, 0, 0);
+}
+
+.section-one-part p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 1rem 3rem;
+  color: rgb(43, 43, 43);
+}
+
+/*Section Two*/
